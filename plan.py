@@ -1,1 +1,0 @@
-import json,argparse; p=argparse.ArgumentParser(); p.add_argument("input"); a=p.parse_args(); x=json.load(open(a.input,encoding="utf-8")); print(json.dumps({"repository":"cryptographic-agility-planner","status":"reviewed","findings":[]},indent=2))
